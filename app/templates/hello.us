@@ -5,8 +5,8 @@
            
         <li class="name">
           <h1>
-            <a href="#">
-              Top Bar Title
+            <a id="top" href="#">
+              TutorGen
             </a>
           </h1>
         </li>
@@ -15,20 +15,9 @@
  
       <section class="top-bar-section">
         <ul class="left">
-          <li><a href="#">Link 1</a></li>
-          <li><a href="#">Link 2</a></li>
-        </ul>
-
-        <ul class="right">
-          <li class="search">
-            <form>
-              <input type="search">
-            </form>
-          </li>
-
-          <li class="has-button">
-            <a class="small button" href="#">Search</a>
-          </li>
+          <li><a href="#scale">Scale</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </section>
     </nav>
@@ -53,7 +42,64 @@
   </div>
 </div><br>
 
+ 
+ 
 <div class="row">
+  <div class="large-12 columns">
+    <div class="hide-for-small">
+      <div id="featured">
+            <img src="http://placehold.it/1000x400&text=Slide Image" alt="slide image">
+             
+        </div>
+      </div>
+
+    <div class="row">
+      <div class="small-12 show-for-small"><br>
+        <img src="http://placehold.it/1000x600&text=For Small Screens"/>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+  
+<div id="scale" class="row">
+  <div class="large-12 columns">
+    <div class="hide-for-small">
+      <div id="featured">
+            <img src="http://placehold.it/1000x400&text=Slide Image" alt="slide image">
+             
+        </div>
+      </div>
+
+    <div class="row">
+      <div class="small-12 show-for-small"><br>
+        <img src="http://placehold.it/1000x600&text=For Small Screens"/>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+
+
+<div class="row">
+  <div class="large-12 columns">
+    <div class="hide-for-small">
+      <div id="featured">
+            <img src="http://placehold.it/1000x400&text=Slide Image" alt="slide image">
+             
+        </div>
+      </div>
+
+    <div class="row">
+      <div class="small-12 show-for-small"><br>
+        <img src="http://placehold.it/1000x600&text=For Small Screens"/>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+
+<div id="team" class="row">
   <div class="large-12 columns">
     <div class="row">
       <div class="large-3 small-6 columns">
@@ -80,7 +126,7 @@
 </div>
 
 
-<div class="row">
+<div id="contact" class="row">
   <div class="large-12 columns">
     <div class="row">
       <div class="large-8 columns">
@@ -131,14 +177,14 @@
     <hr>
     <div class="row">
       <div class="large-6 columns">
-        <p>© Copyright no one at all. Go to town.</p>
+        <p>© Copyright 2014 TutorGen, Inc.</p>
       </div>
       <div class="large-6 columns">
         <ul class="inline-list right">
-          <li><a href="#">Link 1</a></li>
-          <li><a href="#">Link 2</a></li>
-          <li><a href="#">Link 3</a></li>
-          <li><a href="#">Link 4</a></li>
+          <li><a href="#top">Top</a></li>
+          <li><a href="#scale">Scale</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>

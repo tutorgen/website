@@ -1,7 +1,37 @@
 @darkGray: #dedede;
 @lightGray: #efefef;
 
+@mutedGreen: #5ec274;
+
+body {
+    background-image: url('/img/pw_pattern.png');
+    background-repeat: repeat-x repeat-y;
+}
+
 .hello {
   background-color: @lightGray;
   border: 1px solid @darkGray;
+}
+
+.top-bar {
+    background-color: @mutedGreen;
+}
+
+.top-bar-section ul li {
+    background-color: darken(@mutedGreen, 10%);
+
+    &:not(.has-form) {
+        a:not(.button) {
+            background-color: darken(@mutedGreen, 10%);
+            border-top: 3px solid darken(@mutedGreen, 10%);
+            border-bottom: 3px solid darken(@mutedGreen, 10%);
+            height: 45px;
+
+            &:hover {
+                background-color: darken(@mutedGreen, 10%);
+
+                border-top: 3px solid white;
+            }
+        }
+    }
 }
