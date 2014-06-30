@@ -15,162 +15,286 @@
  
       <section class="top-bar-section">
         <ul class="left">
-          <li><a href="#scale">Scale</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a class="link-work" href="#work">Work</a></li>
+          <li><a class="link-scale" href="#scale">Scale</a></li>
+          <li><a class="link-partners" href="#partners">Partners</a></li>
+          <li><a class="link-team" href="#team">Team</a></li>
+          <li><a class="link-contact" href="#contact">Contact</a></li>
         </ul>
       </section>
     </nav>
   </div>
 </div>
- 
- 
-<div class="row">
-  <div class="large-12 columns">
-    <div class="hide-for-small">
-      <div id="featured">
-            <img src="http://placehold.it/1000x400&text=Slide Image" alt="slide image">
-             
+
+<section id="work">
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="wedo">
+        This is what we do.
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-12 columns">
+      <ul>
+        <li>Parts of a Interactive Tutor (Cognitive, Learner, Domain)</li>
+        <ul>
+          <li>Cognitive - How does the computer think about the problem domain?</li>
+          <li>Learner - How does the student think about the problem domain?</li>
+          <li>Domain - What are the problems, and the steps to arrive at a solution?</li>
+        </ul>
+        <li>Size of market ($1 Billion?)</li>
+        <li>Cost of your/average/typical development? ($1 Million?)</li>
+        <li>What percentage of your development budget goes into creating the domain model vs everything else?</li>
+        <li>What if we can substaintially reduce your costs of development?</li>
+        <li>Show the Solution - Automated generation of domain models from real, historical student data.</li>
+        <li>Show the Solution - Realtime adaptive modeling based on student input and user interaction.</li>
+        <li>Show the Solution - Easy development pipeline with reduced load on content developers and system programmers.</li>
+        <li>Show the Solution - Open Source Technology, RESTful web services, approachable platform development.</li>
+        <li>Show the Solution - Clear and plentiful documentation.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="tagline">
+        We teach computers, to learn how to teach people.
+      </div>
+    </div>
+  </div>
+   
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="hide-for-small">
+        <div id="featured">
+              <img src="http://placehold.it/1000x400&text=Slide Image" alt="slide image">
+               
+          </div>
+        </div>
+
+      <div class="row">
+        <div class="small-12 show-for-small"><br>
+          <img src="http://placehold.it/1000x600&text=For Small Screens"/>
+        </div>
+      </div>
+    </div>
+  </div><br>
+
+   
+   
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="hide-for-small">
+        <div id="featured">
+              <img src="http://placehold.it/1000x400&text=Slide Image" alt="slide image">
+               
+          </div>
+        </div>
+
+      <div class="row">
+        <div class="small-12 show-for-small"><br>
+          <img src="http://placehold.it/1000x600&text=For Small Screens"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="scale">
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="introscale">
+        Introducing Scale.
+      </div>
+    </div>
+  </div>
+    
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="hide-for-small">
+        <div id="featured">
+              <img src="http://placehold.it/1000x400&text=Slide Image" alt="slide image">
+               
+          </div>
+        </div>
+
+      <div class="row">
+        <div class="small-12 show-for-small"><br>
+          <img src="http://placehold.it/1000x600&text=For Small Screens"/>
+        </div>
+      </div>
+    </div>
+  </div><br>
+</section>
+
+<section id="partners">
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="wesup">
+        This is who we work for.
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="row">
+        <div class="large-3 small-6 columns">
+          <img src="http://placehold.it/250x250&text=Kid"/>
+        </div>
+
+        <div class="large-3 small-6 columns">
+          <img src="http://placehold.it/250x250&text=Teacher"/>
+        </div>
+
+        <div class="large-3 small-6 columns">
+          <img src="http://placehold.it/250x250&text=Developer"/>
+        </div>
+
+        <div class="large-3 small-6 columns">
+          <img src="http://placehold.it/250x250&text=Parent"/>
         </div>
       </div>
 
-    <div class="row">
-      <div class="small-12 show-for-small"><br>
-        <img src="http://placehold.it/1000x600&text=For Small Screens"/>
-      </div>
-    </div>
-  </div>
-</div><br>
+      <div class="row">&nbsp;</div>
 
- 
- 
-<div class="row">
-  <div class="large-12 columns">
-    <div class="hide-for-small">
-      <div id="featured">
-            <img src="http://placehold.it/1000x400&text=Slide Image" alt="slide image">
-             
+      <div class="row">
+        <div class="large-3 small-6 columns">
+          <img src="http://placehold.it/250x250&text=Developer"/>
+        </div>
+
+        <div class="large-3 small-6 columns">
+          <img src="http://placehold.it/250x250&text=Kid"/>
+        </div>
+
+        <div class="large-3 small-6 columns">
+          <img src="http://placehold.it/250x250&text=CMU"/>
+        </div>
+
+        <div class="large-3 small-6 columns">
+          <img src="http://placehold.it/250x250&text=CL"/>
         </div>
       </div>
+    </div>
+  </div>
+</section>
 
-    <div class="row">
-      <div class="small-12 show-for-small"><br>
-        <img src="http://placehold.it/1000x600&text=For Small Screens"/>
+<section id="team">
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="weare">
+        This is who we are.
       </div>
     </div>
   </div>
-</div><br>
 
-  
-<div id="scale" class="row">
-  <div class="large-12 columns">
-    <div class="hide-for-small">
-      <div id="featured">
-            <img src="http://placehold.it/1000x400&text=Slide Image" alt="slide image">
-             
+  <div class="row">
+    <div class="large-6 columns">
+      <div class="row">
+        <div class="large-12 small-6 columns">
+          <img src="http://placehold.it/500x500&text=John"/>
+          <div class="panel">
+            <h4><b>John Stamper</b></h4>
+            <h6>Chief Executive Office</h6>
+            <h6 class="subheader">Visionary, Our Benevolent Dicator</h6>
+            <p>
+              John Stamper is one of the worlds leading experts on Intelligent
+              Tutoring Systems. TODO: PUT MORE STUFF HERE
+            </p>
+          </div>
         </div>
       </div>
-
-    <div class="row">
-      <div class="small-12 show-for-small"><br>
-        <img src="http://placehold.it/1000x600&text=For Small Screens"/>
-      </div>
     </div>
-  </div>
-</div><br>
-
-
-
-<div class="row">
-  <div class="large-12 columns">
-    <div class="hide-for-small">
-      <div id="featured">
-            <img src="http://placehold.it/1000x400&text=Slide Image" alt="slide image">
-             
-        </div>
-      </div>
-
-    <div class="row">
-      <div class="small-12 show-for-small"><br>
-        <img src="http://placehold.it/1000x600&text=For Small Screens"/>
-      </div>
-    </div>
-  </div>
-</div><br>
-
-
-<div id="team" class="row">
-  <div class="large-12 columns">
-    <div class="row">
-      <div class="large-3 small-6 columns">
-        <img src="http://placehold.it/250x250&text=Thumbnail"/>
-        <h6 class="panel">Description</h6>
-      </div>
-
-      <div class="large-3 small-6 columns">
-        <img src="http://placehold.it/250x250&text=Thumbnail"/>
-        <h6 class="panel">Description</h6>
-      </div>
-
-      <div class="large-3 small-6 columns">
-        <img src="http://placehold.it/250x250&text=Thumbnail"/>
-        <h6 class="panel">Description</h6>
-      </div>
-
-      <div class="large-3 small-6 columns">
-        <img src="http://placehold.it/250x250&text=Thumbnail"/>
-        <h6 class="panel">Description</h6>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<div id="contact" class="row">
-  <div class="large-12 columns">
-    <div class="row">
-      <div class="large-8 columns">
-        <div class="panel radius">
-        <div class="row">
+    <div class="large-6 columns">
+      <div class="row">
         <div class="large-6 small-6 columns">
-
-          <h4>Header</h4><hr/>
-          <h5 class="subheader">Risus ligula, aliquam nec fermentum vitae, sollicitudin eget urna. Donec dignissim nibh fermentum odio ornare sagittis.
-          </h5>
-
-        <div class="show-for-small" align="center">
-          <a href="#" class="small radius button">Call To Action!</a><br>
-
-          <a href="#" class="small radius button">Call To Action!</a>
+          <img src="http://placehold.it/250x250&text=Mary"/>
+          <div class="panel">
+            <h6><b>Mary Jean Blink</b></h6>
+            <h6>Chief Operating Office</h6>
+            <h6 class="subheader">Keeper of Order</h6>
+          </div>
         </div>
 
-        </div>
         <div class="large-6 small-6 columns">
-
-          <p>Suspendisse ultrices ornare tempor. Aenean eget ultricies libero. Phasellus non ipsum eros. Vivamus at dignissim massa. Aenean dolor libero, blandit quis interdum et, malesuada nec ligula. Nullam erat erat, eleifend sed pulvinar ac. Suspendisse ultrices ornare tempor. Aenean eget ultricies libero.
-        </p>
+          <img src="http://placehold.it/250x250&text=Ted"/>
+          <div class="panel">
+            <h6><b>Ted Carmichael</b></h6>
+            <h6>Chief Researcher</h6>
+            <h6 class="subheader">Lover of Cats</h6>
+          </div>
+        </div>
       </div>
 
-      </div>
-      </div>
-      </div>
+      <div class="row">
+        <div class="large-6 small-6 columns">
+          <img src="http://placehold.it/250x250&text=Ray"/>
+          <div class="panel">
+            <h6><b>Raymond Chandler III</b></h6>
+            <h6>Chief Technology Officer</h6>
+            <h6 class="subheader">Maker of Things</h6>
+          </div>
+        </div>
 
+        <div class="large-6 small-6 columns">
+          <img src="http://placehold.it/250x250&text=Brian"/>
+          <div class="panel">
+            <h6><b>Brian Sauer</b></h6>
+            <h6>Chief Engineer</h6>
+            <h6 class="subheader">Tester of Code</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="row">
+        <div class="large-8 columns">
+          <div class="panel radius">
+            <div class="row">
+              <div class="large-6 small-6 columns">
+
+                <h4>Learn More</h4><hr/>
+                <h5 class="subheader">
+                  The world of content generation for educational software is about to get a whole lot better.
+                </h5>
+
+                <div class="show-for-small" align="center">
+                  <a href="#" class="small radius button">Call To Action!</a><br>
+
+                  <a href="#" class="small radius button">Call To Action!</a>
+                </div>
+              </div>
+              <div class="large-6 small-6 columns">
+                <p>
+                  After years of research, our advances in technology will make is cheaper, 
+                  easier, and faster to create interactive systems for learning in all it's forms.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="large-4 columns hide-for-small">
 
-        <h4>Get In Touch!</h4><hr/>
+        <h4>Work with us!</h4><hr/>
 
         <a class="large button expand" href="#">
-          Call To Action!
+          Contact Us!
         </a>
 
         <a class="large button expand" href="#">
-          Call To Action!
+          Follow Us!
         </a>
       </div>
     </div>
   </div>
-</div>
-   
+</section> 
 
 <footer class="row">
   <div class="large-12 columns">
@@ -182,7 +306,9 @@
       <div class="large-6 columns">
         <ul class="inline-list right">
           <li><a href="#top">Top</a></li>
+          <li><a href="#work">Work</a></li>
           <li><a href="#scale">Scale</a></li>
+          <li><a href="#partners">Partners</a></li>
           <li><a href="#team">Team</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>

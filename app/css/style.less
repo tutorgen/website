@@ -2,6 +2,9 @@
 @lightGray: #efefef;
 
 @mutedGreen: #5ec274;
+@mutedBlue: #5C78AC;
+@mutedRed: #FF887B;
+@mutedYellow: #FFD17B;
 
 body {
     background-image: url('/img/pw_pattern.png');
@@ -27,11 +30,69 @@ body {
             border-bottom: 3px solid darken(@mutedGreen, 10%);
             height: 45px;
 
+            &.link-work { border-top-color: @mutedRed }
+            &.link-scale { border-top-color: @mutedGreen }
+            &.link-partners { border-top-color: @mutedYellow }
+            &.link-team { border-top-color: @mutedBlue }
+            &.link-contact { border-top-color: black }
+
             &:hover {
                 background-color: darken(@mutedGreen, 10%);
-
                 border-top: 3px solid white;
             }
         }
     }
 }
+
+.wesup {
+    margin-bottom: 0.5em;
+    padding: 0.1em;
+    font-size: 10em;
+    background-color: @mutedYellow;
+    color: white;
+}
+
+.wedo {
+    margin-top: 0.25em;
+    margin-bottom: 0.5em;
+    padding: 0.1em;
+    font-size: 10em;
+    background-color: @mutedRed;
+    color: white;
+}
+
+.introscale {
+    margin-bottom: 0.5em;
+    padding: 0.1em;
+    font-size: 10em;
+    background-color: @mutedGreen;
+    color: white;
+}
+
+.tagline {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    font-size: 2em;
+    background-color: @mutedBlue;
+    color: white;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 12em;
+}
+
+.weare {
+    margin-bottom: 0.5em;
+    padding: 0.1em;
+    font-size: 10em;
+    background-color: @mutedBlue;
+    color: white;
+}
+
+#contact {
+    margin-top: 0em;
+    margin-bottom: 1em;
+}
+
