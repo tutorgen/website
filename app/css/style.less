@@ -1,5 +1,6 @@
 @darkGray: #dedede;
 @lightGray: #efefef;
+@darkerGray: #808080;
 
 @mutedGreen: #5ec274;
 @mutedBlue: #5C78AC;
@@ -34,7 +35,7 @@ body {
             &.link-scale { border-top-color: @mutedGreen }
             &.link-partners { border-top-color: @mutedYellow }
             &.link-team { border-top-color: @mutedBlue }
-            &.link-contact { border-top-color: black }
+            &.link-contact { border-top-color: @darkerGray;}
 
             &:hover {
                 background-color: darken(@mutedGreen, 10%);
@@ -42,23 +43,6 @@ body {
             }
         }
     }
-}
-
-.wesup {
-    margin-bottom: 0.5em;
-    padding: 0.1em;
-    font-size: 10em;
-    background-color: @mutedYellow;
-    color: white;
-}
-
-.wedo {
-    margin-top: 0.25em;
-    margin-bottom: 0.5em;
-    padding: 0.1em;
-    font-size: 10em;
-    background-color: @mutedRed;
-    color: white;
 }
 
 .introscale {
@@ -77,22 +61,145 @@ body {
     background-color: @mutedBlue;
     color: white;
     text-align: center;
+
+    &.collapsed {
+        margin: 0em;
+    }
 }
 
-section {
-    margin-bottom: 12em;
+.models {
+    background-color: white;
+    img {
+        padding: 20px;
+        text-align: center;
+        font-size: 2em;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    p {
+        padding: 20px;
+    }
 }
 
-.weare {
-    margin-bottom: 0.5em;
-    padding: 0.1em;
-    font-size: 10em;
+.team-fill {
     background-color: @mutedBlue;
+}
+
+.partner-fill {
+    background-color: @mutedYellow;
+}
+
+.white-fill {
+    background-color: white;
+}
+
+.red-fill {
+    background-color: @mutedRed;
+}
+
+.green-fill {
+    background-color: @mutedGreen;
+}
+
+.gray-fill {
+    background-color: @darkerGray;
+}
+
+.callout {
+    padding: .2em;
+    font-size: 8em;
     color: white;
+
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
 }
 
-#contact {
-    margin-top: 0em;
-    margin-bottom: 1em;
+.drop {
+    -webkit-box-shadow: inset 0px 2px 8px -1px rgba(50, 50, 50, 0.6);
+    -moz-box-shadow:    inset 0px 2px 8px -1px rgba(50, 50, 50, 0.6);
+    box-shadow:         inset 0px 2px 8px -1px rgba(50, 50, 50, 0.6);
 }
 
+img.john {
+    width: 512px;
+    height: 470px;
+
+    background: url('/img/john_prof.png');
+    background-size: 470px 470px;
+
+    &:hover {
+        background: url('/img/john_fun.png');
+        background-size: 470px 470px;
+    }
+}
+
+img.mary {
+    width: 256px;
+    height: 220px;
+
+    background: url('/img/mary_prof.png');
+    background-size: 220px 220px;
+
+    &:hover {
+        background: url('/img/mary_fun.png');
+        background-size: 220px 220px;
+    }
+}
+
+img.ted {
+    width: 256px;
+    height: 220px;
+
+    background: url('/img/ted_prof.png');
+    background-size: 220px 220px;
+
+    &:hover {
+        background: url('/img/ted_fun.png');
+        background-size: 220px 220px;
+    }
+}
+
+img.ray {
+    width: 256px;
+    height: 220px;
+
+    background: url('/img/ray_prof.png');
+    background-size: 220px 220px;
+
+    &:hover {
+        background: url('/img/ray_fun.png');
+        background-size: 220px 220px;
+    }
+}
+
+img.brian {
+    width: 256px;
+    height: 220px;
+
+    background: url('/img/brian_prof.png');
+    background-size: 220px 220px;
+
+    &:hover {
+        background: url('/img/brian_fun.png');
+        background-size: 220px 220px;
+    }
+}
+
+footer {
+    color: white;
+
+    a { color: white; }
+    a:active {color: white;}
+    a:visited {color: white;}
+    a:hover {color:white; border-bottom: 3px solid white;}
+}
+
+.pad20 {
+    padding: 20px;
+}
+
+.pad40 {
+    padding: 40px;
+}
