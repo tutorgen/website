@@ -3,6 +3,7 @@
 @darkerGray: #808080;
 
 @mutedGreen: #5ec274;
+@darkGreen: #51AA51;
 @mutedBlue: #5C78AC;
 @mutedRed: #FF887B;
 @mutedYellow: #FFD17B;
@@ -12,13 +13,74 @@ body {
     background-repeat: repeat-x repeat-y;
 }
 
+.row { max-width: 1190px; }
+.contain-to-grid {
+    background: none;
+    .top-bar { max-width: 1190px; }
+}
+
 .hello {
   background-color: @lightGray;
   border: 1px solid @darkGray;
 }
 
+
+.ourlogo {
+    width: 32px;
+    height: 32px;
+}
+
+.brand {
+    color: white;
+}
+
+.left-off-canvas-toggle {
+    margin-left: 20px;
+    color: white;
+
+    font-size: 24px;
+
+}
+
+.left-off-canvas-menu {
+    ul {
+        margin: 0px;
+        width: 100%;
+        list-style-type: none;
+        background-color: @darkGreen;
+
+        li {
+            border-left: 5px solid white;
+            border-bottom: 3px solid #333;
+            width: 100%;
+
+            &.menu-work { border-left-color: @mutedRed }
+            &.menu-scale { border-left-color: @mutedGreen }
+            &.menu-partners { border-left-color: @mutedYellow }
+            &.menu-team { border-left-color: @mutedBlue }
+            &.menu-contact { border-left-color: @darkerGray;}
+
+            &:hover {
+                border-left-color: white;
+            }
+
+            a {
+                display: inline-block;
+                padding: 10px 20px;
+                width: 100%;
+                height: 100%;
+                color: white;
+            }
+        }
+    }
+}
+
 .top-bar {
     background-color: @mutedGreen;
+
+    .right {
+        padding-right: 20px;
+    }
 }
 
 .top-bar-section ul li {
@@ -100,6 +162,10 @@ body {
     background-color: @mutedRed;
 }
 
+.dark-green-fill {
+    background-color: @darkGreen;
+}
+
 .green-fill {
     background-color: @mutedGreen;
 }
@@ -109,11 +175,18 @@ body {
 }
 
 .callout {
+    margin-top: 45px;
     padding: .2em;
-    font-size: 8em;
+    padding-bottom: .8em;
+    font-size: 4em;
+    line-height: 1.5em;
     color: white;
 
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+p {
+    font-size: 14px;
 }
 
 .drop {
@@ -122,68 +195,84 @@ body {
     box-shadow:         inset 0px 2px 8px -1px rgba(50, 50, 50, 0.6);
 }
 
+#team {
+    p {
+        height: 220px;
+    }
+}
+
 img.john {
-    width: 512px;
-    height: 470px;
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
 
     background: url('/img/john_prof.png');
-    background-size: 470px 470px;
+    background-size: cover;
 
     &:hover {
         background: url('/img/john_fun.png');
-        background-size: 470px 470px;
+        background-size: cover;
     }
 }
 
 img.mary {
-    width: 256px;
-    height: 220px;
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
 
     background: url('/img/mary_prof.png');
-    background-size: 220px 220px;
+    background-size: cover;
 
     &:hover {
         background: url('/img/mary_fun.png');
-        background-size: 220px 220px;
+        background-size: cover;
     }
 }
 
 img.ted {
-    width: 256px;
-    height: 220px;
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
 
     background: url('/img/ted_prof.png');
-    background-size: 220px 220px;
+    background-size: cover;
 
     &:hover {
         background: url('/img/ted_fun.png');
-        background-size: 220px 220px;
+        background-size: cover;
     }
 }
 
 img.ray {
-    width: 256px;
-    height: 220px;
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
 
     background: url('/img/ray_prof.png');
-    background-size: 220px 220px;
+    background-size: cover;
 
     &:hover {
         background: url('/img/ray_fun.png');
-        background-size: 220px 220px;
+        background-size: cover;
     }
 }
 
 img.brian {
-    width: 256px;
-    height: 220px;
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
 
     background: url('/img/brian_prof.png');
-    background-size: 220px 220px;
+    background-size: cover;
 
     &:hover {
         background: url('/img/brian_fun.png');
-        background-size: 220px 220px;
+        background-size: cover;
     }
 }
 
