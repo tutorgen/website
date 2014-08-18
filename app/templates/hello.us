@@ -58,7 +58,7 @@
       <div class="row dark-green-fill drop">
         <div class="large-12 columns">
           <div class="callout">
-            At TutorGen, we are working hard to build the worlds first, open source, machine learning platform for educational software.
+          At TutorGen we are building an automated machine learning platform to make educational software adapative.
           </div>
         </div>
       </div>
@@ -67,7 +67,7 @@
         <div class="row team-fill">
           <div class="large-12 columns">
             <div class="tagline collapsed">
-              Creating educational software is hard. So we've made it easy.
+              Making adaptive educational software is hard. So we've made it easy.
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@
             </div>
             <div class="row">
               <div class="large-4 columns pad40">
-                <h3>Cognitive Modeling</h3>
+                <h3>Just-in-time Feedback</h3>
                 <p>We leverage bleeding-edge artificial intelligence algorithms
                 capable of <b><i>thinking</i></b> about how students 
                 solve and reason about problems. Not only do we track and monitor
@@ -110,6 +110,15 @@
                 automated modeling of how students really approach problem solving.</p>
               </div>
             </div>
+            <div class="row">
+              <div class="large-1 large-offset-10 small-6 columns pad20">
+                <img src="/img/nsf_logo.png"/>
+              </div>
+
+              <div class="large-1 small-6 columns pad20">
+                <img src="/img/cmu_logo.png"/>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -128,7 +137,7 @@
           <div class="row">
             <div class="large-12 columns">
               <div class="callout">
-                This is who we work with.
+                In partnership with Carnegie Mellon University and the National Science Foundation. We work for you.
               </div>
             </div>
           </div>
@@ -149,9 +158,12 @@
               <img src="/img/teacher_01.png"/>
             </div>
           </div>
-          <div class="row">
+
+          <!--<div class="row">
             <div class="large-3 small-6 columns pad20">
-              <img src="/img/student_02.png"/>
+            </div>
+
+            <div class="large-3 small-6 columns pad20">
             </div>
 
             <div class="large-3 small-6 columns pad20">
@@ -161,11 +173,7 @@
             <div class="large-3 small-6 columns pad20">
               <img src="/img/cmu_logo.png"/>
             </div>
-
-            <div class="large-3 small-6 columns pad20">
-              <img src="/img/cl_logo.png"/>
-            </div>
-          </div>
+          </div>-->
 
           <div class="row">&nbsp;</div>
         </div>
@@ -178,7 +186,7 @@
           <div class="row">
             <div class="large-12 columns">
               <div class="callout">
-                This is who we are.
+                Who we are.
               </div>
             </div>
           </div>
@@ -259,7 +267,7 @@
           <div class="row">
             <div class="large-12 columns">
               <div class="callout">
-                This is how you'll find us.
+                Where you'll find us.
               </div>
             </div>
           </div>
