@@ -73,7 +73,6 @@
         </div>
 
         <div class="row white-fill drop">
-          <div class="large-12 pad20"></div>
           <div class="large-12 columns pad20">
             <div class="row">
               <div class="large-4 small-4 columns">
@@ -108,15 +107,6 @@
                 without any expert training. We can provide hints to students, suggest 
                 new problems, and new ways to solve problems, based solely on the 
                 automated modeling of how students really approach problem solving.</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="large-1 large-offset-10 small-6 columns pad20">
-                <img src="/img/nsf_logo.png"/>
-              </div>
-
-              <div class="large-1 small-6 columns pad20">
-                <img src="/img/cmu_logo.png"/>
               </div>
             </div>
           </div>
@@ -195,9 +185,9 @@
               <img class="john"/>
               <div class="panel">
                 <h6><b>John Stamper</b></h6>
-                <h6>Chief Executive Office</h6>
+                <h6>Chief Executive Officer</h6>
                 <p>
-                John is one of the worlds top leading experts on Intelligent Tutoring Systems. While
+                John is a world-leading expert on Intelligent Tutoring Systems. While
     at Carnegie Melon University John has been involved in cutting edge research on Cognitive Tutors, Adaptive
     Learning, Educational Data Mining, and Dynamic Hint Generation. At TutorGen John focuses on business 
     development, and overarching vision. 
@@ -208,10 +198,10 @@
               <img class="mary"/>
               <div class="panel">
                 <h6><b>Mary Jean Blink</b></h6>
-                <h6>Chief Operating Office</h6>
+                <h6>Chief Operating Officer</h6>
                 <p>
-                Before joining us as our Chief Operating Officer Mary had been busy consulting, teaching, 
-                managing, and advising various startups and companies throughout her career. She 
+                Before joining us as our Chief Operating Officer Mary had been busy developing software solutions,
+                 consulting, teaching, managing, and advising various startups and companies throughout her career. She
                 current spends most of her time at TutorGen engaged in day to day operations, business development, 
                 facilities managements, and client negotiations.
                 </p>
@@ -305,12 +295,28 @@
               </div>
             </div>
             <div class="large-4 columns hide-for-small">
+              <div class="row">
+                <div class="large-12 columns">
+                  <a class="large button expand" href="#">
+                    Learn More
+                  </a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="large-12 columns">
+                  <a class="large button expand" href="https://twitter.com/tutorgen" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow Us on Twitter</a>
+                </div>
+              </div>
 
-            <a class="large button expand" href="#">
-              Learn More
-            </a>
-
-            <a class="large button expand" href="https://twitter.com/tutorgen" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow Us on Twitter</a>
+              <div class="row">
+                <div class="large-6 columns">
+                  <img class="bordered" src="/img/nsf_logo.png"/>
+                </div>
+                <div class="large-6 columns">
+                  <img class="bordered" src="/img/cmu_logo.png"/>
+                </div>
+              </div>
+            </div>
           </div>
       </div>
     </section> 
@@ -320,11 +326,10 @@
         <hr>
         <div class="row">
           <div class="large-6 columns">
-            <p>© Copyright 2014 TutorGen, Inc.</p>
+            <p>&copy; Copyright 2014 TutorGen, Inc.</p>
           </div>
           <div class="large-6 columns">
             <ul class="inline-list right">
-              <li><a href="#top">Top</a></li>
               <li><a href="#work">Work</a></li>
               <li><a href="#partners">Partners</a></li>
               <li><a href="#team">Team</a></li>

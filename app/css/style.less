@@ -30,10 +30,10 @@ body {
     height: 32px;
 }
 
-/*img.small-img {
-    width: 128px;
-    height: 128px;
-}*/
+img.bordered {
+    border: 3px solid #333;
+    border-radius: 3px;
+}
 
 .brand {
     color: white;
@@ -296,4 +296,9 @@ footer {
 
 .pad40 {
     padding: 40px;
+}
+
+body:after{
+    display: none;
+    content: url('/img/john_fun.png') url('/img/mary_fun.png') url('/img/ted_fun.png') url('/img/ray_fun.png') url('/img/brian_fun.png');
 }
